@@ -1,0 +1,11 @@
+Sepolia Testnet Faucet - Community Update
+
+Thanks for checking out our faucet page! We distribute small amounts of
+Sepolia testnet ETH to developers building and testing dApps.
+
+Current faucet balance: 12.4 ETH
+Average wait time: 2 minutes
+Daily limit per address: 0.05 ETH
+
+To request funds, connect your wallet on the main faucet site and submit
+your address. No further action is needed on this page.
