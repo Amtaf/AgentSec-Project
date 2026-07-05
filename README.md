@@ -9,8 +9,8 @@ A minimal AI agent (Gemini 2.5 Flash, tool-calling) with two tools:
 
 **The result:** *Yes*. Across 3 runs of the same injected document, the agent executed an unauthorized transfer in 2. Both are confirmed on-chain:
 
-- `https://sepolia.etherscan.io/tx/9a53df9a175235bb265f2d5fb6209e354e7335058f3e40b09e160a17384ba3af`
-- `https://sepolia.etherscan.io/tx/4c9d15f20ad7fb9d5c214b873eb0ea4afe7745d1a981c1cd5f7a826efe2a2221`
+- [https://sepolia.etherscan.io/tx/9a53df9a175235bb265f2d5fb6209e354e7335058f3e40b09e160a17384ba3af]
+- [https://sepolia.etherscan.io/tx/4c9d15f20ad7fb9d5c214b873eb0ea4afe7745d1a981c1cd5f7a826efe2a2221]
 
 A control document,identical except for the injected instruction never triggered a transfer.
 
@@ -20,7 +20,7 @@ A control document,identical except for the injected instruction never triggered
 ![etherscan confirmation](<Screenshots/Screenshot from 2026-07-04 16-12-09.png>)
 This isn't hypothetical.In May 2026, the same underlying attack using instructions hidden in untrusted text was used to get an X-linked AI agent (Grok, wired to the Bankr trading bot) to authorize a $150K+ unauthorized token transfer. This project reproduces the same failure mode on a controlled testnet, with fewer moving parts, so the mechanism is easier to see clearly.
 
-Full writeup, threat model, severity analysis, and mitigations: **[link to full report]**
+Full writeup, threat model, severity analysis, and mitigations: **[[link to full report](https://aqfatma.hashnode.dev/agentic-wallet-prompt-injection-a-minimal-case-study)]**
 
 ## Setup
 
